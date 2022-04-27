@@ -11,13 +11,14 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap">
+    <link rel="shortcut icon" href="./assets/favicon-16x16.png" type="image/x-icon">
 </head>
 <h1>SALA DE CINE</h1>
 <?php
 
 //Se requieren las funciones para imprimir el escenario y para enviar las acciones del usuario
-require("./assets/escenario.php");
-require("./assets/accion.php");
+require("escenario.php");
+require("accion.php");
 //Se ejecuta el if cuando el usuario envie la informacion del formulario
 if(isset($_REQUEST["Enviar"])){
                 //Se captura la información enviada del formulario
